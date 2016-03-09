@@ -1,0 +1,33 @@
+body {
+  margin: 0; }
+
+p {
+  color: blue; }
+
+header {
+  height: 250px;
+  width: 100%;
+  background-color: crimson; }
+
+main {
+  width: 100%; }
+
+footer {
+  height: 250px;
+  width: 100%;
+  background-color: darkgrey; }
+
+.card--container * {
+  font-family: Arial; }
+
+.card--container a {
+  color: blue; }
+
+.card--container p {
+  line-height: 1.5; }
+
+.card {
+  color: red; }
+
+.state {
+  font-size: 3rem; }

@@ -1,0 +1,21 @@
+@mixin content-typo($font-family, $color) {
+  * {
+    font-family: $font-family;
+  }
+
+  a {
+    color: $color;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.card--container {
+  @include content-typo(Arial, blue);
+}
+
+.card {
+  color: red;
+}
